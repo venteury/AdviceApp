@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advice Generator</title>
+    <!--LINK CUSTOM CSS FILE-->
+    <link rel="stylesheet" href="css/style.css" />xx
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>
+        <i class="fas fa-quote-left"></i>
+        <span class="quote" id="quote"><%=qot%></span>
+        <i class="fas fa-quote-right"></i>
+      </h1>
+
+      <hr />
+
+      <div class="buttons">
+        <!--add an onclick event on 'Advice' button-->
+        <button class="advice" id="nxt" onclick="window.location.reload();";">Advice Me</button>
+      </div>
+    </div>
+
+    <!--LINK CUSTOM JS FILE-->
+    <script src="script.js"></script>
+  </body>
+</html>
